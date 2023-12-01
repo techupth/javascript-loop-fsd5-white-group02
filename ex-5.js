@@ -2,3 +2,8 @@
 let companyName = "TechUp";
 
 // Start coding here
+for (let letters in companyName) {
+  console.log(
+    ` Number ${Number(letters) + 1} character is ${companyName[letters]}`
+  );
+}
